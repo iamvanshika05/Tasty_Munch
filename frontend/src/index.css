@@ -1,0 +1,61 @@
+body{
+    margin:0;
+    
+        font-family: 'Roboto', sans-serif;
+      
+    
+}
+
+.addToCart-button-title {
+    font-size: 2rem; 
+    font-weight: bold;
+   font-family:monospace
+  }
+  .spanEle{
+        color:rgba(128, 255, 0, 0.758)
+  }
+  
+  .btn{
+    font-weight:bolder;
+  }
+
+  
+  .addToCart-button {
+    /* Default background color */
+    color: white; /* Text color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  /* Hover effect - change background color on hover */
+  .addToCart-button:hover {
+    background-color: #218838; /* New background color on hover */
+  }
+  
+  /* Active effect - add a shadow when clicked */
+  .addToCart-button:active {
+    transform: translateY(2px); /* Push the button down on click */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add a box shadow on click */
+  }
+
+
+  /* .login-page {
+    background-image: url("./frontend/src/Images/bimg.jpg"); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff; 
+  }
+  
+
+  .login-form {
+    background: rgba(0, 0, 0, 0.7); 
+    padding: 20px;
+    border-radius: 8px;
+  } */
